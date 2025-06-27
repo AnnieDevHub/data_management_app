@@ -1,22 +1,20 @@
-# Flutter Internship Week 2 — Data Management & Persistent Storage
+# Data Management App 
 
-Features:
+## 📌 Features:
+- View list of tasks
+- Add new tasks
+- Delete tasks
+- Data saved using SharedPreferences
+- Custom AppBar & icons for better UI
 
-Counter App with setState()
+## Packages:
+- shared_preferences: ^2.2.2
 
-Persistent counter value using SharedPreferences
-
-To-Do List app with add, display, and save tasks locally
-
-Packages:
-
-shared_preferences: ^2.2.2
-
-
-How to Run:
-
+## How to Run:
 1. Clone this repository
-2. Run flutter pub get
-3. Launch app on emulator or physical device
-4. Use Counter and To-Do List features
-# flutter_week2_data_management
+2. Run `flutter pub get`
+3. Open emulator or physical device
+4. Run `flutter run`
+5. Use + button to add, tap 🗑️ to delete.
+
+
